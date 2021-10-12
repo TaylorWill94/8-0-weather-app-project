@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+
+.weather {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid black;
+    background-color: teal;
+    grid-column: 2 / 4;
+    font-weight: bold;
+   
+}
+
+.display {
+    grid-column: 2;
+    padding: 30px;
+    border: 1px solid teal;
+    background-color:rgb(233, 233, 233);
+    text-align: center;
+    
+}
+
+.history {
+    font-weight: bold;
+}
