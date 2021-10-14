@@ -5,30 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="main.js" />
+    <script defer src="main.js"></script>
     <title>Document</title>
 </head>
-<body class="container">
-    <div class="weather">
+
+
+<body>
+
+    <section class='header'>
     <h1>Weather App</h1>
    
-    <form> 
+    <form id='search-form'> 
          <label for="location">Pick a location</label>
-            <input type="text" name="location" id="location">
-            <input type='submit' value='Get Weather'>
+            <input type="text" id="search" name="search" required/>
+            <input type='submit' value='Get Weather'> 
         </form>
-   
-</div>
-
-
+</section>
     
    <main class="display">
     <div>Choose a location to view the weather.</div>
 </main>
+
     <sidebar class="history">
     <div>Previous Searches</div>
+    <ul>
+    <p>No previous searches.</p>
+    </ul>
     </sidebar>
    
+
+    
+    <article class="afterNext display">
+        <div></div>
+        <div></div>
+        <div></div>
+      </article>
+     
+
+    
     
 </body>
 </html>
