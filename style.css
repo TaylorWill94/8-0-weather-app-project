@@ -1,31 +1,40 @@
-.container {
+body {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto 200px;
+    row-gap: 40px;
 }
 
 
-.weather {
-    color: white;
-    padding: 30px;
-    text-align: center;
-    border: 3px solid black;
+.header {
+    grid-column: 1 / span 3;
     background-color: teal;
-    grid-column: 2 / 4;
-    font-weight: bold;
-   
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black
 }
 
 .display {
-    grid-column: 2;
-    padding: 30px;
-    border: 1px solid teal;
-    background-color:rgb(233, 233, 233);
+    background-color: lightgray;
+    grid-column: 1 / span 2;
     text-align: center;
-    
+    border: 1px solid teal;
+
 }
 
-.history {
+
+.history div {
     font-weight: bold;
+    margin-left: 1rem;
 }
+
+
+.afterNext {
+    display: grid;
+    grid-column: 2/9;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid white;
+    background-color: white;
+  }
