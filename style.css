@@ -33,7 +33,7 @@ body {
 
 .afterNext {
     display: grid;
-    grid-column: 2/9;
+    grid-column: 1/9;
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid white;
     background-color: white;
