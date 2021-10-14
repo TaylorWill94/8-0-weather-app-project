@@ -21,6 +21,7 @@ body {
     grid-column: 1 / span 2;
     text-align: center;
     border: 1px solid teal;
+    padding: 50px;
 
 }
 
@@ -33,8 +34,8 @@ body {
 
 .afterNext {
     display: grid;
-    grid-column: 1/9;
+    grid-column: 1 / span 3;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: white;
   }
